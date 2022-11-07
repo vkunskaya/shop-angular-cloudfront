@@ -7,11 +7,11 @@ import { Config } from './config.interface';
 export const environment: Config = {
   production: false,
   apiEndpoints: {
-    product: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
-    order: 'http://localhost:3000/orders',
-    import: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
-    bff: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
-    cart: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
+    product: '/api/' || 'https://.execute-api.eu-west-1.amazonaws.com/dev',
+    order: '/api/' || 'https://.execute-api.eu-west-1.amazonaws.com/dev',
+    import: '/api/' || 'https://.execute-api.eu-west-1.amazonaws.com/dev',
+    bff: '/api/' || 'https://.execute-api.eu-west-1.amazonaws.com/dev',
+    cart: '/api/' || 'https://.execute-api.eu-west-1.amazonaws.com/dev',
   },
   apiEndpointsEnabled: {
     product: false,
