@@ -47,3 +47,6 @@ Thumbs.db
 
 # SAM assests
 template-export.yml
+
+# sonar
+.scannerwork
